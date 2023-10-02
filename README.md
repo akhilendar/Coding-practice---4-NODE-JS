@@ -1,8 +1,26 @@
-# Cricket Team
+**Project Title:** Cricket Team Management API
 
-Given two files `app.js` and a database file `cricketTeam.db` consisting a table `cricket_team`.
+**Description:**
 
-Write APIs to perform operations on the table `cricket_team` containing the following columns,
+I designed and implemented a RESTful API for managing a cricket team using Node.js and Express.js. This project involved creating API endpoints to perform various operations on a SQLite database, including player management. The API provides the following functionalities:
+
+1. **GET Players (API 1):** Retrieves a list of all players in the cricket team, displaying their details such as player ID, name, jersey number, and role.
+
+2. **Add Player (API 2):** Allows the addition of new players to the team. The API auto-generates player IDs and stores player information, including name, jersey number, and role, in a SQLite database.
+
+3. **Get Player by ID (API 3):** Retrieves detailed information about a specific player based on their player ID. This endpoint returns player-specific details, including their name, jersey number, and role.
+
+4. **Update Player Details (API 4):** Provides the ability to update player details, such as their name, jersey number, or role, by specifying the player ID. This feature ensures accurate and up-to-date player information.
+
+5. **Remove Player (API 5):** Enables the removal of players from the team based on their player ID. This feature helps in managing the team roster efficiently.
+
+I used CommonJS modules for modularization and SQLite as the database system to store player information. The project also involved deploying the API on the Render platform to make it accessible over the internet.
+
+This project showcased my skills in creating RESTful APIs, working with databases, and deploying applications in a real-world environment. It also demonstrated my proficiency in Node.js and Express.js, essential technologies for backend web development.
+
+**Deployment Link**: [https://sample-node-cricketteam-deploying.onrender.com](url)
+
+The table `cricket_team` contains the following columns,
 
 | Columns       | Type    |
 | ------------- | ------- |
@@ -129,7 +147,3 @@ Player Removed
 <br/>
 
 Use `npm install` to install the packages.
-
-**Export the express instance using the default export syntax.**
-
-**Use Common JS module syntax.**
